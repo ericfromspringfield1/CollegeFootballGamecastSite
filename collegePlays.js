@@ -48,7 +48,7 @@ const gameIds = {
     }
    
 
-    const gameUrl = `http://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401237142`
+    const gameUrl = `https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401237142`
     
     const displayData = async () => {
         const jsonData = await fetch (gameUrl)
