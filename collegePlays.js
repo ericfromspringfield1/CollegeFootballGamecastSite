@@ -189,29 +189,29 @@ const gameIds = {
       
     switch (true)  {
 
-        case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip >= 0 && weatherPrecip < 20):
-        weather = document.getElementById('weather')
-        weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x26C5` 
-        weather.style.color = `#${homeTeamColor}`
-        break;
+        // case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip >= 0 && weatherPrecip < 20):
+        // weather = document.getElementById('weather')
+        // weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x26C5` 
+        // weather.style.color = `#${homeTeamColor}`
+        // break;
 
-        case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip > 50 && weatherPrecip > 20):
-        weather = document.getElementById('weather')
-        weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x1F326` 
-        weather.style.color = `#${homeTeamColor}`
-        break;
+        // case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip > 50 && weatherPrecip > 20):
+        // weather = document.getElementById('weather')
+        // weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x1F326` 
+        // weather.style.color = `#${homeTeamColor}`
+        // break;
 
-        case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip > 50 && weatherPrecip < 70):
-        weather = document.getElementById('weather')
-        weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x1F326` 
-        weather.style.color = `#${homeTeamColor}`
-        break;
+        // case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip > 50 && weatherPrecip < 70):
+        // weather = document.getElementById('weather')
+        // weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x1F326` 
+        // weather.style.color = `#${homeTeamColor}`
+        // break;
 
-        case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip > 70):
-        weather = document.getElementById('weather')
-        weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x1F327` 
-        weather.style.color = `#${homeTeamColor}`
-        break;
+        // case (data.header.competitions[0].status.type.description === "Scheduled" && weatherPrecip > 70):
+        // weather = document.getElementById('weather')
+        // weather.innerHTML = `High ${weatherTeamHigh}&#176 / Low ${weatherTempLow}&#176 &#x1F327` 
+        // weather.style.color = `#${homeTeamColor}`
+        // break;
 
             case (weatherPrecip >= 0 && weatherPrecip < 20):
                 weather = document.getElementById('weather')
